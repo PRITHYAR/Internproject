@@ -1,0 +1,132 @@
+body{
+ background-color:black;
+ font-family:'circular std', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-div{
+    display:flex;
+    flex-direction:row;
+    margin-left:600px;
+    background-color:black;
+    padding-left:30px;
+    width:20%;
+    flex:1;
+    margin-top:60px;
+}
+
+.form-div h1,label,p{
+    color:white;
+    
+}
+input::placeholder{
+    color:white;
+}
+input{
+    color:white;
+}
+
+.form-div h1{
+    
+   margin-left:-70px;
+   
+    font-family: 'Circular Std', sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      color: white;
+      text-align: center;
+      line-height: 1.2;
+   
+}
+
+.form1-div{
+  
+    flex-direction:column;
+    line-height:2;
+}
+
+.form1-div a{
+   color:#1ED760;;
+}
+
+.form1-div button{
+    
+    background-color: #1ED760;
+    color: black;
+    font-weight: bold;
+    padding:10px 60px;
+    border: none;
+    border-radius: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width:300px;
+    margin-top:10px;
+}
+
+.form1-div input{
+    padding:10px;
+    border-radius:5px;
+    border-color:white;
+    background-color: black;
+    border-width: 2px;
+    width:260px;
+}
+
+
+#spotify-icon{
+    margin-left:120px;
+    justify-content: space-between;
+}
+
+.other-btn{
+    padding:10px 60px;
+    display:flex;
+    flex-direction: column;
+  
+    width:300px;
+    margin-left:-60px;
+   
+}
+
+.other-btn img{
+    margin-left:-30px;
+}
+
+.other-btn button{
+    color: black;
+    font-weight: bold;
+    padding:10px 60px;
+    border-radius: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-color: white;
+    background-color: black;
+    color:white;
+    
+    
+}
+
+.login-div{
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    margin-left:30px;
+    
+}
+.login-div h5{
+   color:gray;
+}
+.login-div a{
+    color:white;
+}
+
+.login-div p{
+    color:gray;
+    font-size:10px;
+ 
+}
+
+
+
+
