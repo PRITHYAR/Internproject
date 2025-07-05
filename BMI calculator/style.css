@@ -1,0 +1,151 @@
+
+
+/*.main-div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:10%;
+    padding:30px;
+    background-color:whitesmoke;
+    width:500px;
+    height:auto;
+    margin-left:500px;
+    border-radius: 20px;
+    border:1px solid rgb(193, 193, 202);
+   
+}
+
+.Heading{
+  
+  background: linear-gradient(to right, #0066cc, #0088cc); 
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin: -30px -30px 30px -30px;
+   
+}*/
+
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: whitesmoke;
+  width: 500px;
+  border-radius: 20px;
+  border: 1px solid rgb(193, 193, 202);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.Heading {
+  background: linear-gradient(to right, #0066cc, #0088cc);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.metric-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+}
+
+
+.metric-div form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+
+.metric-div label {
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+.metric-div input[type="number"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.metric-div p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+
+.cal1-btn,
+.reset1-btn {
+  width: 100%;
+  max-width: 300px;
+}
+
+.cal1-btn button,
+.reset1-btn button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+}
+
+.cal1-btn button {
+  background-color: #007bff;
+  color: white;
+  margin-top: 15px;
+}
+
+.cal1-btn button:hover {
+  background-color: #0056b3;
+}
+
+.reset1-btn button {
+  background-color: #e0e0e0;
+  color: #333;
+  margin-top: 10px;
+}
+
+.reset1-btn button:hover {
+  background-color: #cfcfcf;
+}
+
+
+.result,
+.range {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+
+

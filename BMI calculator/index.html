@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main-div">
+        <div class="Heading">
+            <h1>Adult BMI Calculator</h1>
+        </div>
+        
+        <div class="form-container">
+            <div class="form1-div">
+                <div class="metric-div">
+                    <form>
+                        
+                            <label >HEIGHT</label><br>
+                                
+                            <input type="number" id="height">
+                            <label>centimeter(cm)</label>
+                        
+                        
+                            <label class="card2">
+                                WEIGHT
+                            </label><br>
+                            <input type="number" id="weight">
+                            <label>Kilograms(kg)</label>
+                        
+                    </form>
+                    <div class="cal1-btn">
+                        <button onClick="calculate()">Calculate</button>
+                    </div>
+                    <div class="reset1-btn">
+                        <button onClick="resetForm()">Reset</button>
+                    </div>
+                    <p class="result"></p>
+                    <p class="range"></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
